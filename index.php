@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>CHN</h1>
+    <P>EMPRESA 100% ORIGINAL DE COLOMBIA OFRECIENDO LOS MEJORES PRECIOS EN DISEÑO AUDIO VISUAL Y EDICION DE PAGINAS WEB</p>
 <div>
      <input type="button" class="btn btn-primary" id="cl" value="clientes">
             <input type="button" class="btn btn-primary" id="fa" value="factura">
