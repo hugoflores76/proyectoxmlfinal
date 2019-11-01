@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="css/miestilo.css"?>
+<!DOCTYPE personas [
+<!ELEMENT personas (persona)*>
+<!ELEMENT persona (apellido , nombre)*>
+<!ATTLIST persona id ID #REQUIRED>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+]>
+<personas>
+    <persona id="C001">
+        <apellido>ruiz</apellido>
+        <nombre>liliana</nombre>
+    </persona>
+    <persona id="C002">
+        <apellido>flores</apellido>
+        <nombre>hugo</nombre>
+    </persona>
+    <persona id="C004">
+        <apellido>contreras</apellido>
+        <nombre>liliana</nombre>
+    </persona>
+
+    <persona id="C003">
+        <apellido>linineros</apellido>
+        <nombre>alejandra</nombre>
+    </persona>
+<persona id="C005"><apellido>gonzales</apellido><nombre>marta</nombre></persona>
+
+<persona id="C006"><apellido>olarte</apellido><nombre>camilo</nombre></persona><persona id="c007"><apellido>escobar</apellido><nombre>liz</nombre></persona><persona id="c008"><apellido>contreras</apellido><nombre>claudia</nombre></persona><persona id="C009"><apellido>londoño</apellido><nombre>margarita</nombre></persona><persona id="C010"><apellido>cantor</apellido><nombre>pedro</nombre></persona></personas>

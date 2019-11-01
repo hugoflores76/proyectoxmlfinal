@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas [
+<!ELEMENT facturas (factura)*>
+<!ELEMENT factura (cliente , venta , fecha , valor)>
+<!ELEMENT cliente (#PCDATA)>
+<!ATTLIST cliente num CDATA #REQUIRED>
+<!ELEMENT venta (#PCDATA)>
+<!ATTLIST venta codigo CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+]>
+<facturas>
+   <factura>
+        <cliente num="C001"/>
+        <venta codigo="C001"/>
+        <fecha>2019-10-12</fecha>
+        <valor>50.000</valor>
+        
+   </factura>
+
+<factura>
+    <cliente num="c007"/>
+    <venta codigo="c007"/>
+    <fecha>2019-10-17</fecha>
+    <valor>45789</valor>
+</factura>
+<factura><cliente num="C009"/><venta codigo="C009"/><fecha>2019-10-30</fecha><valor>33.000</valor></factura><factura><cliente num="c007"/><venta codigo="c007"/><fecha>2019-10-08</fecha><valor>45.000</valor></factura></facturas>
